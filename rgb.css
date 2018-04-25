@@ -1,0 +1,44 @@
+body, main, html {
+  width: 100%;
+  height: 100%;
+}
+
+#background1 {
+width: 100%;
+height: 100%;
+background: #ffffb3;
+background: linear-gradient(#ffffb3, #ffcccc);
+opacity: 1;
+position: absolute;
+top: 50px;
+left: 0;
+}
+
+#background2 {
+width: 100%;
+height: 100%;
+background: #b3d9ff;
+background: linear-gradient(#b3d9ff, #ffffb3);
+opacity: 1;
+position: absolute;
+top: 50px;
+left: 0;
+}
+
+#header1 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 50px;
+background: #ffffb3;
+}
+
+#header2 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 50px;
+background: #b3d9ff;
+}
