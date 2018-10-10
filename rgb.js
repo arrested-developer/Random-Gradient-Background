@@ -44,10 +44,6 @@ function swapBackgrounds() {
     $("#header2").fadeIn(5000);
     bg = 2;
   }
-rotateBackgrounds();
-}
-
-function rotateBackgrounds() {
   setTimeout(function(){
   swapBackgrounds();
   }, 5000)
